@@ -1,1 +1,3 @@
+#!/bin/sh
+
 singularity exec /proj/snic2020-15-186/LinusBenchmark/Containers/trinity_latest.sif Trinity --seqType fq --max_memory 64G --CPU 10 --left /proj/snic2020-15-186/LinusBenchmark/data/Celegans/CelLeft1.fastq.gz --right /proj/snic2020-15-186/LinusBenchmark/data/Celegans/Celright2.fastq.gz --o /proj/snic2020-15-186/LinusBenchmark/output/outputTestTrinity 
